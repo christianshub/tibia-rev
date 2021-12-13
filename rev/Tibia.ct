@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="38">
+  <Files>
+    <auto-attach.lua Encoding="Ascii85">m6A/Q!!Qhnk,?CTfADRsRH_KentDJmq#f8M1[w?4Xx$RgI#c5EapAX/G;KpnAUHL#U*xXK]u[CfWOK8:SZueu*%o:T3Ygr:2PtxV#mRUy9/^0zE$p:[)U_of2]ekAMQd;G?@w!oOGVJV31)3}CM-MDsmlSJox!q;*qt/kunWr=k[LI;/IBq^t-5eoi4K#mNGZG+K)b9iPzA^mNkB/}ACdgbVd?:}s[T##YNesVhrVefH9o*Bk}o/{tQTRds.4Rg^^$/^@L(!dV=$-91-=VJ+zeFC*.*$:r0P2-Duo6{L93]i=TyKXH@2+mVWHXP*YCw3!=7@]zk5Y,FB/eWi*:o*6gq:,zzn*4vZ}BO,7qz*M3sDK,*sPsavHhUG)UFf7p!lg0#KYAT5)Zo6pXiS853u},=D$v3?d6y=z1z/OJdZ_qD=rPO^de.No@Qph)j^7[fk:1)paX+[vS2azAqd8-5}h?</auto-attach.lua>
+  </Files>
+  <CheatEntries/>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>Change of mov [eax],cl</Description>
+      <AddressString>Tibia.exe+3ACDFE</AddressString>
+      <Before>
+        <Byte>8B</Byte>
+        <Byte>02</Byte>
+        <Byte>8A</Byte>
+        <Byte>4D</Byte>
+        <Byte>08</Byte>
+      </Before>
+      <Actual>
+        <Byte>88</Byte>
+        <Byte>08</Byte>
+      </Actual>
+      <After>
+        <Byte>FF</Byte>
+        <Byte>02</Byte>
+        <Byte>0F</Byte>
+        <Byte>B6</Byte>
+        <Byte>C1</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov [edi],edx</Description>
+      <AddressString>Tibia.exe+383965</AddressString>
+      <Before>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+        <Byte>08</Byte>
+        <Byte>5F</Byte>
+        <Byte>C3</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>17</Byte>
+      </Actual>
+      <After>
+        <Byte>83</Byte>
+        <Byte>C7</Byte>
+        <Byte>04</Byte>
+        <Byte>83</Byte>
+        <Byte>E9</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov [edi],al</Description>
+      <AddressString>Tibia.exe+3838F1</AddressString>
+      <Before>
+        <Byte>8A</Byte>
+        <Byte>06</Byte>
+        <Byte>83</Byte>
+        <Byte>C6</Byte>
+        <Byte>01</Byte>
+      </Before>
+      <Actual>
+        <Byte>88</Byte>
+        <Byte>07</Byte>
+      </Actual>
+      <After>
+        <Byte>83</Byte>
+        <Byte>C7</Byte>
+        <Byte>01</Byte>
+        <Byte>83</Byte>
+        <Byte>E9</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov byte ptr [eax+ecx+20],00</Description>
+      <AddressString>Tibia.exe+212D86</AddressString>
+      <Before>
+        <Byte>8D</Byte>
+        <Byte>08</Byte>
+        <Byte>FF</Byte>
+        <Byte>FF</Byte>
+        <Byte>FF</Byte>
+      </Before>
+      <Actual>
+        <Byte>C6</Byte>
+        <Byte>44</Byte>
+        <Byte>08</Byte>
+        <Byte>20</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>FF</Byte>
+        <Byte>46</Byte>
+        <Byte>1C</Byte>
+        <Byte>47</Byte>
+        <Byte>03</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov [edi],al</Description>
+      <AddressString>Tibia.exe+383918</AddressString>
+      <Before>
+        <Byte>8A</Byte>
+        <Byte>06</Byte>
+        <Byte>83</Byte>
+        <Byte>C6</Byte>
+        <Byte>01</Byte>
+      </Before>
+      <Actual>
+        <Byte>88</Byte>
+        <Byte>07</Byte>
+      </Actual>
+      <After>
+        <Byte>83</Byte>
+        <Byte>C7</Byte>
+        <Byte>01</Byte>
+        <Byte>84</Byte>
+        <Byte>C0</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov [eax],cl</Description>
+      <AddressString>Tibia.exe+3ACDFE</AddressString>
+      <Before>
+        <Byte>8B</Byte>
+        <Byte>02</Byte>
+        <Byte>8A</Byte>
+        <Byte>4D</Byte>
+        <Byte>08</Byte>
+      </Before>
+      <Actual>
+        <Byte>88</Byte>
+        <Byte>08</Byte>
+      </Actual>
+      <After>
+        <Byte>FF</Byte>
+        <Byte>02</Byte>
+        <Byte>0F</Byte>
+        <Byte>B6</Byte>
+        <Byte>C1</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov [edi],edx</Description>
+      <AddressString>Tibia.exe+383965</AddressString>
+      <Before>
+        <Byte>44</Byte>
+        <Byte>24</Byte>
+        <Byte>08</Byte>
+        <Byte>5F</Byte>
+        <Byte>C3</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>17</Byte>
+      </Actual>
+      <After>
+        <Byte>83</Byte>
+        <Byte>C7</Byte>
+        <Byte>04</Byte>
+        <Byte>83</Byte>
+        <Byte>E9</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov [edi],al</Description>
+      <AddressString>Tibia.exe+3838F1</AddressString>
+      <Before>
+        <Byte>8A</Byte>
+        <Byte>06</Byte>
+        <Byte>83</Byte>
+        <Byte>C6</Byte>
+        <Byte>01</Byte>
+      </Before>
+      <Actual>
+        <Byte>88</Byte>
+        <Byte>07</Byte>
+      </Actual>
+      <After>
+        <Byte>83</Byte>
+        <Byte>C7</Byte>
+        <Byte>01</Byte>
+        <Byte>83</Byte>
+        <Byte>E9</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov byte ptr [eax+ecx+20],00</Description>
+      <AddressString>Tibia.exe+212D86</AddressString>
+      <Before>
+        <Byte>8D</Byte>
+        <Byte>08</Byte>
+        <Byte>FF</Byte>
+        <Byte>FF</Byte>
+        <Byte>FF</Byte>
+      </Before>
+      <Actual>
+        <Byte>C6</Byte>
+        <Byte>44</Byte>
+        <Byte>08</Byte>
+        <Byte>20</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>FF</Byte>
+        <Byte>46</Byte>
+        <Byte>1C</Byte>
+        <Byte>47</Byte>
+        <Byte>03</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov [edi],al</Description>
+      <AddressString>Tibia.exe+383918</AddressString>
+      <Before>
+        <Byte>8A</Byte>
+        <Byte>06</Byte>
+        <Byte>83</Byte>
+        <Byte>C6</Byte>
+        <Byte>01</Byte>
+      </Before>
+      <Actual>
+        <Byte>88</Byte>
+        <Byte>07</Byte>
+      </Actual>
+      <After>
+        <Byte>83</Byte>
+        <Byte>C7</Byte>
+        <Byte>01</Byte>
+        <Byte>84</Byte>
+        <Byte>C0</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+  <LuaScript>PROCESS_NAME = 'Tibia.exe'
+
+local processOpened = false;
+
+function myattach(timer)
+
+  -- If process exist
+  if (getProcessIDFromProcessName(PROCESS_NAME) ~= nil) and (processOpened == false) then
+
+    -- Uncomment for debugging
+    print('process was found, attaching...');
+
+    openProcess(PROCESS_NAME)
+    processOpened = true;
+
+  end
+
+  -- If process does no longer exist, then we start look for the process.
+  if (getProcessIDFromProcessName(PROCESS_NAME) == nil) then
+
+
+    -- Uncomment for debugging
+    -- print('Process is not running, starting to look for it...');
+
+    processOpened = false;
+    return;
+  end
+
+  -- Uncomment for debugging
+  -- print('Process is running...');
+end
+
+t=createTimer(nil); -- create timer
+timer_setInterval(t,5000) -- set interval (5 seconds)
+timer_onTimer(t,myattach) -- start timer
+</LuaScript>
+</CheatTable>
